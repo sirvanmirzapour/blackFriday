@@ -1,120 +1,10 @@
-@font-face {
-  font-family: "Yekan Bakh Fat";
-  src: local("fonts/YekanBakh-Fat"),
-    url("fonts/YekanBakh-Fat.eot?#iefix") format("embedded-opentype"),
-    url("fonts/YekanBakh-Fat.woff2") format("woff2"),
-    url("fonts/YekanBakh-Fat.woff") format("woff"),
-    url("fonts/YekanBakh-Fat.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Yekan Bakh";
-  src: url("fonts/YekanBakh-Medium.eot");
-  src: local("fonts/YekanBakh-Medium"),
-    url("fonts/YekanBakh-Medium.eot?#iefix") format("embedded-opentype"),
-    url("fonts/YekanBakh-Medium.woff2") format("woff2"),
-    url("fonts/YekanBakh-Medium.woff") format("woff"),
-    url("fonts/YekanBakh-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Yekan Bakh fa";
-  src: url("fonts/YekanBakhFaNum-Bold.eot");
-  src: local("fonts/YekanBakhFaNum-Bold"),
-    url("fonts/YekanBakhFaNum-Bold.eot?#iefix") format("embedded-opentype"),
-    url("fonts/YekanBakhFaNum-Bold.woff2") format("woff2"),
-    url("fonts/YekanBakhFaNum-Bold.woff") format("woff"),
-    url("fonts/YekanBakhFaNum-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Yekan Bakh";
-  src: url("fonts/YekanBakh-Light.eot");
-  src: local("fonts/YekanBakh-Light"),
-    url("fonts/YekanBakh-Light.eot?#iefix") format("embedded-opentype"),
-    url("fonts/YekanBakh-Light.woff2") format("woff2"),
-    url("fonts/YekanBakh-Light.woff") format("woff"),
-    url("fonts/YekanBakh-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Yekan Bakh";
-  src: url("fonts/YekanBakh-Heavy.eot");
-  src: local("fonts/YekanBakh-Heavy"),
-    url("fonts/YekanBakh-Heavy.eot?#iefix") format("embedded-opentype"),
-    url("fonts/YekanBakh-Heavy.woff2") format("woff2"),
-    url("fonts/YekanBakh-Heavy.woff") format("woff"),
-    url("fonts/YekanBakh-Heavy.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Yekan Bakh";
-  src: url("fonts/YekanBakh-Thin.eot");
-  src: local("fonts/YekanBakh-Thin"),
-    url("fonts/YekanBakh-Thin.eot?#iefix") format("embedded-opentype"),
-    url("fonts/YekanBakh-Thin.woff2") format("woff2"),
-    url("fonts/YekanBakh-Thin.woff") format("woff"),
-    url("fonts/YekanBakh-Thin.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Yekan Bakh";
-  src: url("fonts/YekanBakh-Regular.eot");
-  src: local("fonts/YekanBakh-Regular"),
-    url("fonts/YekanBakh-Regular.eot?#iefix") format("embedded-opentype"),
-    url("fonts/YekanBakh-Regular.woff2") format("woff2"),
-    url("fonts/YekanBakh-Regular.woff") format("woff"),
-    url("fonts/YekanBakh-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Yekan Bakh Hairline";
-  src: url("fonts/YekanBakh-Hairline.eot");
-  src: local("fonts/YekanBakh-Hairline"),
-    url("fonts/YekanBakh-Hairline.eot?#iefix") format("embedded-opentype"),
-    url("fonts/YekanBakh-Hairline.woff2") format("woff2"),
-    url("fonts/YekanBakh-Hairline.woff") format("woff"),
-    url("fonts/YekanBakh-Hairline.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: samsungsharpsans;
-  src: url("fonts/En/samsungsharpsans.otf");
-}
-
 body {
+  font-family: Bakh;
   overflow: auto;
   direction: rtl;
   text-align: right;
-  font-family: "Yekan Bakh";
   cursor: default;
   background-color: #000;
-}
-i {
-  font-family: "Font Awesome 6 Free" !important;
 }
 
 .container_header {
@@ -122,7 +12,6 @@ i {
   margin-top: 20px;
 }
 .container_header .brand {
-  font-family: "Yekan Bakh";
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,7 +133,6 @@ i {
 .title_accordion h2 {
   text-align: center;
   color: #ff0841;
-  font-family: "yekan";
   font-weight: 900;
 }
 
@@ -266,9 +154,10 @@ i {
 }
 
 .row_indicator h3 {
-  color: #ff0841;
+  color: #fff;
   margin-bottom: 25px;
   font-size: 30px;
+  font-weight: 100;
 }
 
 .img_indicator img {
@@ -1183,5 +1072,14 @@ button:active {
   font-weight: 900;
   text-justify: wrap;
   font-weight: blod;
-  font-family: "Yekan Bakh";
+}
+
+.clamp-two-lines {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  max-height: 1.5em;
+  line-height: 1.5em;
 }
