@@ -1,0 +1,109 @@
+.countdown {
+  text-transform: uppercase;
+  font-family: "Yekan Bakh fa";
+}
+
+.countdown div {
+  display: inline-block;
+  font-family: "Yekan Bakh fa";
+}
+
+.countdown div span {
+  display: block;
+  text-align: center;
+  font-family: "Yekan Bakh fa";
+}
+
+.countdown-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  font-family: "Yekan Bakh fa";
+}
+
+.countdown-container .seconds-bottom {
+  color: #c00;
+  font-family: "Yekan Bakh fa";
+}
+
+.countdown-container .countdown-heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #d90268;
+  font-family: "Yekan Bakh fa";
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.countdown-container .countdown-value {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  width: 10px;
+  height: 50px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Yekan Bakh fa";
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.countdown-bold {
+  text-transform: uppercase;
+}
+
+.countdown-bold div {
+  display: inline-block;
+}
+
+.countdown-bold div span {
+  display: block;
+  text-align: center;
+  font-family: "Yekan Bakh fa";
+}
+
+.countdown-bold.countdown-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+  font-family: "Yekan Bakh fa";
+}
+
+.countdown-bold .countdown-container .seconds-bottom {
+  color: #c00;
+}
+
+.countdown-bold .countdown-container .countdown-heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 60px;
+  color: #d90268;
+  font-family: "Yekan Bakh fa";
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.countdown-bold .countdown-container .countdown-value {
+  font-family: "Yekan Bakh fa";
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 60px;
+  width: 10px;
+  height: 50px;
+  color: #fff;
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
